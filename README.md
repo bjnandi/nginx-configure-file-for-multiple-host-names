@@ -1,0 +1,1 @@
+# nginx-configure-file-for-multiple-host-names
