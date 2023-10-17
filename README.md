@@ -1,9 +1,10 @@
 # nginx-configure-file-for-multiple-host-names
-Diagram
+<br>
+##Diagram
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.jpg)
 
 <br>
-Demo
+##Demo
 
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.gif)
 
@@ -56,7 +57,7 @@ sudo nginx -t
 sudo nginx -s reload
 ```
 
-## other command 
+## Other command 
 ```
 sudo docker run -it -d -p 80:80 nginx
 ```
