@@ -1,11 +1,12 @@
 # nginx-configure-file-for-multiple-host-names
 <br>
-##Diagram
+## Diagram
+<br>
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.jpg)
 
+<br><br>
+## Demo
 <br>
-##Demo
-
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.gif)
 
 
