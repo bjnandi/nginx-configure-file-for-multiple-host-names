@@ -3,7 +3,7 @@
 
 Demo
 
-![Screenshot](Write the Nginx configure file for Multiple Host Names for three servers on AWS.gif)
+![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.gif)
 
 ```
 events {
@@ -50,3 +50,12 @@ sudo nginx -t
 # Now restart the nginx server
 sudo nginx -s reload
 ```
+
+## Now, access the URL for the demo. URL like this
+```
+http://student.bjtechlife.com/
+```
+```
+http://api.student.bjtechlife.com/
+```
+if you want to learn details <a href="https://medium.com/@bjnandi/write-the-nginx-configure-file-for-multiple-host-names-for-three-servers-on-aws-8ed1550fc6cb">click here</a>
