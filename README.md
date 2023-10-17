@@ -1,13 +1,11 @@
 # nginx-configure-file-for-multiple-host-names
-<br>
+
 ## Diagram
-<br>
 
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.jpg)
 
-<br>
+
 ## Demo
-<br>
 
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.gif)
 
@@ -78,4 +76,4 @@ http://student.bjtechlife.com/
 ```
 http://api.student.bjtechlife.com/
 ```
-if you want to learn details <a href="https://medium.com/@bjnandi/write-the-nginx-configure-file-for-multiple-host-names-for-three-servers-on-aws-8ed1550fc6cb" target ="_blank">click here</a>
+<h4>if you want to learn details <a href="https://medium.com/@bjnandi/write-the-nginx-configure-file-for-multiple-host-names-for-three-servers-on-aws-8ed1550fc6cb" target ="_blank">click here</a></h4>
