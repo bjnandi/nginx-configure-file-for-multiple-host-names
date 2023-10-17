@@ -1,9 +1,14 @@
 # nginx-configure-file-for-multiple-host-names
+Diagram
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.jpg)
 
+<br>
 Demo
 
 ![Screenshot](Write%20the%20Nginx%20configure%20file%20for%20Multiple%20Host%20Names%20for%20three%20servers%20on%C2%A0AWS.gif)
+
+
+## Configure the the ‘nginx.conf’ file
 
 ```
 events {
@@ -51,6 +56,17 @@ sudo nginx -t
 sudo nginx -s reload
 ```
 
+## other command 
+```
+sudo docker run -it -d -p 80:80 nginx
+```
+```
+sudo docker run -it --name frontend -d -p 3000:3000 node
+```
+```
+sudo docker run -it --name backend -d -p 5000:5000 node
+```
+
 ## Now, access the URL for the demo. URL like this
 ```
 http://student.bjtechlife.com/
@@ -58,4 +74,4 @@ http://student.bjtechlife.com/
 ```
 http://api.student.bjtechlife.com/
 ```
-if you want to learn details <a href="https://medium.com/@bjnandi/write-the-nginx-configure-file-for-multiple-host-names-for-three-servers-on-aws-8ed1550fc6cb">click here</a>
+if you want to learn details <a href="https://medium.com/@bjnandi/write-the-nginx-configure-file-for-multiple-host-names-for-three-servers-on-aws-8ed1550fc6cb" target ="_blank">click here</a>
